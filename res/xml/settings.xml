@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <ListPreference
+        android:dialogTitle="@string/save_location"
+        android:entries="@array/save_location_options"
+        android:entryValues="@array/save_location_options_values"
+        android:key="setting_save_location"
+        android:summary="@string/internal_SD"
+        android:title="@string/save_location" />
+    <!-- zhaoyuan add for configqxdm 20160128 start -->
+    <ListPreference
+        android:dialogTitle="@string/config_qxdm_title"
+        android:key="setting_qxdm_config"
+        android:summary="@string/qxdm_configs"
+        android:title="@string/config_qxdm_title" />
+    <!-- zhaoyuan add for configqxdm 20160128 end -->
+
+</PreferenceScreen>
